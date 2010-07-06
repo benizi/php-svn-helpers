@@ -32,7 +32,7 @@ else
 fi
 
 echo "Repository: $REPOSITORY"
-echo "Directroy:  $DIR"
+echo "Directory:  $DIR"
 echo "Branch:     $BRANCH"
 echo "Initialize..."
 
