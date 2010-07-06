@@ -24,7 +24,7 @@ fi
 DIR=$1
 
 echo "Repository: $REPOSITORY"
-echo "Directroy:  $DIR"
+echo "Directory:  $DIR"
 echo "Initialize..."
 
 (mkdir $DIR && cd $DIR && git init &&git remote add origin $REPOSITORY && git config remote.origin.fetch 'refs/remotes/*:refs/remotes/*' && git fetch &&
